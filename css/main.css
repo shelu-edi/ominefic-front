@@ -1,0 +1,180 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main__top__container {
+  height: 180px;
+  text-align: center;
+  color: #00d18b;
+  font-size: 64px;
+  padding-top: 30px;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+.login__container {
+  background: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-top: 30px;
+  margin-left: 400px;
+  width: 50%;
+  border-radius: 10px;
+  height: 350px;
+  align-self: center;
+  text-align: center;
+}
+
+.login__container p {
+  font-size: 32px;
+  height: 80px;
+}
+
+.login__container .submit__container {
+  margin: 30px 0 20px 350px;
+  background: #00d18b;
+  padding: 8px 0 0 0;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.login__container .submit__container a {
+  text-decoration: none;
+  color: #00071f;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login__container .submit__container:hover {
+  background: #00071f;
+  color: #00d18b;
+  cursor: pointer;
+  border: 1px solid #1273a8;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.login__container .submit__container:hover a {
+  color: #00d18b;
+  cursor: pointer;
+}
+
+.partner__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0 0 100px;
+  width: 90%;
+  height: 300px;
+  background: slategray;
+}
+
+.partner__container p {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.login {
+  width: 320px;
+  padding: 30px;
+  margin-left: 250px;
+}
+
+.login__field {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.login__icon {
+  position: absolute;
+  top: 30px;
+  color: #00d18b;
+}
+
+.login__input {
+  border: none;
+  border-bottom: 2px solid #d1d1d4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 75%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #00d18b;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-bottom-color: #6a679e;
+}
+
+.login__submit {
+  background: #00d18b;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  border: 1px solid #1273a8;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  color: #00071f;
+  -webkit-box-shadow: 0px 2px 2px #5c5696;
+          box-shadow: 0px 2px 2px #5c5696;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.login__submit a {
+  text-decoration: none;
+  color: #00071f;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+  border-color: #6a679e;
+  outline: none;
+}
+
+.button__icon {
+  font-size: 24px;
+  margin-left: auto;
+  color: #00071f;
+}
+
+.button__text {
+  margin-left: 70px;
+}
+
+body {
+  background: #00071f;
+  color: #00d18b;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
