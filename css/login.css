@@ -1,0 +1,296 @@
+body {
+  background: #00071f;
+  height: fit-content;
+}
+
+.main__top__container {
+  background: transparent;
+  height: 120px;
+  text-align: center;
+  color: #00d18b;
+  font-size: 64px;
+  padding-top: 30px;
+  /* transition: all 2s fadeIn; */
+  animation: fadeIn 2s;
+}
+
+.login__container {
+  margin-top: 0;
+  background: transparent;
+  align-items: center;
+  align-self: center;
+  margin-left: 25rem;
+  width: 50%;
+  left: 50%;
+  border-radius: 10px;
+  height: 400px;
+  align-self: center;
+  text-align: center;
+  /* transition: all 2s fadeIn; */
+  animation: fadeIn 3s;
+}
+
+.login__container p {
+  padding: 0 auto;
+  font-size: 32px;
+  height: 10px;
+  color: #00d18b;
+}
+
+.login {
+  width: 320px;
+  padding: 30px;
+  margin-left: 230px;
+  position: absolute;
+  /* left: 50%; */
+}
+
+.login__field {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.login__icon {
+  position: absolute;
+  top: 30px;
+  color: #00d18b;
+}
+
+.login__input {
+  left: 50%;
+  border: none;
+  border-bottom: 2px solid #d1d1d4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 75%;
+  transition: 0.2s;
+  color: #00d18b;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-bottom-color: #6a679e;
+}
+
+.login__submit {
+  background: #00d18b;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  border: 1px solid #1273a8;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #00071f;
+  box-shadow: 0px 2px 2px #5c5696;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login__submit a {
+  text-decoration: none;
+  color: #00071f;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+  border-color: #6a679e;
+  outline: none;
+}
+
+.button__icon {
+  font-size: 24px;
+  margin-left: auto;
+  color: #00071f;
+}
+
+.button__text {
+  margin-left: 110px;
+}
+
+.partner__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0 100px;
+  width: 90%;
+  height: 300px;
+  background: transparent;
+  /* border: 1px solid #1273a8; */
+  border-radius: 10px;
+  /* transition: all 3s ease-in; */
+}
+
+.partner__container p {
+  color: #00d18b;
+  font-size: 24px;
+  margin-top: 20px;
+  animation: fadeIn 4s;
+}
+
+.partner__wrapper {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  animation: fadeIn 5s;
+}
+
+.partner__card {
+  background: transparent;
+  border: 1px solid #1273a8;
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  align-content: center;
+}
+
+.partner__card img {
+  width: 250px;
+  height: 200px;
+}
+
+@media (max-width: 1500px) {
+  .login__container {
+    margin-left: 22rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .login__container {
+    margin-left: 16rem;
+  }
+
+  .login__container p {
+    margin-left: 10rem;
+  }
+
+  .partner__container {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 1110px) {
+  .login__container {
+    margin-left: 10rem;
+  }
+
+  .login__container p {
+    margin-left: 15rem;
+  }
+
+  .partner__wrapper {
+    width: 90%;
+    padding: 0 1rem;
+  }
+
+  .partner__card {
+    width: 200px;
+    height: 180px;
+  }
+  .partner__card img {
+    width: 200px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .login__container {
+    margin-left: 3rem;
+  }
+
+  .login__container p {
+    margin-left: 20rem;
+  }
+
+  .partner__wrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  .partner__card {
+    width: 180px;
+    height: 160px;
+  }
+  .partner__card img {
+    width: 180px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__top__container {
+    height: 100px;
+
+    font-size: 40px;
+  }
+
+  .login__container {
+    margin-left: 180px;
+    height: 350px;
+  }
+
+  .login__container p {
+    margin-left: 10px;
+  }
+
+  .login {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .partner__container {
+    margin-left: 10px;
+    width: 100%;
+    height: 180px;
+  }
+  .partner__wrapper {
+    /* overflow-x: scroll; */
+    width: 90%;
+  }
+
+  .partner__card {
+    width: 120px;
+    height: 80px;
+  }
+  .partner__card img {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login__container {
+    margin-left: 10px;
+  }
+
+  .login__container p {
+    font-size: 24px;
+    margin-left: 160px;
+  }
+
+  .partner__wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
