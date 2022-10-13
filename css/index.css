@@ -1,5 +1,8 @@
 body {
   background: #00071f;
+  @import url("http://fonts.cdnfonts.com/css/minimo");
+
+  font-family: "Minimo", sans-serif;
 }
 
 html {
@@ -15,6 +18,8 @@ html {
 .abs__container {
   display: flex;
   width: 100vw;
+  z-index: 999;
+  background: transparent;
 }
 
 .logo__container {
@@ -220,6 +225,207 @@ section {
   animation: fadeIn 5s;
 }
 
+/* Div 03 -> Digital Strategy */
+#div03,
+#div04,
+#div05,
+#div06,
+#div07,
+#div08 {
+  min-height: 100vh;
+  color: #00d18b;
+  width: 100vw;
+}
+
+/* Digital */
+
+.digital_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.digital__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.digital__container img {
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.digital__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Social */
+
+.social_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.social__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.social__container img {
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.social__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Influencer */
+
+.influencer_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.influencer__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.influencer__container img {
+  margin: 20px 0 0 0;
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.influencer__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Mobile */
+
+.web_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.web__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.web__container img {
+  margin: 20px 0 0 0;
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.web__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Web */
+
+.mobile_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.mobile__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.mobile__container img {
+  margin: 20px 0 0 0;
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.mobile__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Other */
+
+.other_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.other__container {
+  padding: 0 0 10px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  animation: fadeIn 5s;
+}
+
+.other__container img {
+  margin: 20px 0 20px 0;
+  width: 85%;
+  height: 15rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.other__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
@@ -234,6 +440,15 @@ section {
   100% {
     opacity: 1;
   }
+}
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 5s;
+  --animate-delay: 1s;
+}
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 6s;
+  --animate-delay: 1s;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,49 @@
+* {
+  background: #003399;
+  @import url("http://fonts.cdnfonts.com/css/minimo");
+
+  color: #00d18b;
+  font-family: "Minimo", sans-serif;
+}
+
+.top__container {
+  font-size: 5rem;
+  color: #00d18b;
+  text-align: center;
+  padding-top: 1vh;
+  animation: fadeIn 1s;
+}
+
+/* Main Wrapper */
+.main__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.login__wrapper {
+  margin: 10px 20px;
+  padding: 30px;
+  background: #1273a8;
+  color: #003399;
+  height: 10vh;
+  width: 20%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.login__wrapper a {
+  background: transparent;
+  color: #003399;
+  text-decoration: none;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
