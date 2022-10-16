@@ -1,14 +1,14 @@
 * {
-  background: #003399;
+  background:#00071f;
   @import url("http://fonts.cdnfonts.com/css/minimo");
 
-  color: #00d18b;
+  color: #1273a8;
   font-family: "Minimo", sans-serif;
 }
 
 .top__container {
   font-size: 5rem;
-  color: #00d18b;
+  color: #1273a8;
   text-align: center;
   padding-top: 1vh;
   animation: fadeIn 1s;

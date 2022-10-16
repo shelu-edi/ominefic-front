@@ -18,9 +18,16 @@
             Welcome To Ominefic
         </div>
         <div class="main__login__wrapper">
-            <div class="login__container">
-                <p> Client Login</p>
-                <div class="login__wrapper">
+            <div class="login__head_container">
+                <div class="client__head" onclick="clientLogin()" id="client-head">
+                    Client Login
+                </div>
+                <div class="client__head" onclick="referralLogin()" id="referral-head">
+                    Referral Login
+                </div>
+            </div>
+            <div class="login__container" id="client-wrapper">
+                <div class="login__wrapper" >
                     <form class="login">
                         <div class="login__field">
                             <i class="login__icon fas fa-user"></i>
@@ -36,10 +43,9 @@
                     </form>
                 </div>
             </div>
-            <div class="referral__container">
-                <p>Referral Login </p>
+            <div class="referral__container" id="referral-wrapper">
                 <div class="referral__wrapper">
-                    <form class="login">
+                    <form class="login referral">
                         <div class="login__field">
                             <i class="login__icon fas fa-key"></i>
                             <input type="text" class="login__input" placeholder="Referral">
@@ -75,6 +81,7 @@
     </div>
     </div>
 
+    <script src="/js/login.js"></script>
 </body>
 
 </html>

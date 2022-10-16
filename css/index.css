@@ -31,7 +31,7 @@ html {
 
 .logo__container a {
   text-decoration: none;
-  color: #00d18b;
+  color: #6a679e;
 }
 
 /* nav__burger */
@@ -48,7 +48,7 @@ html {
 
 .bgr {
   margin-top: 5px;
-  background: #00d18b;
+  background: #6a679e;
   width: 25px;
   height: 2px;
   border-radius: 10px;
@@ -71,7 +71,7 @@ section {
   width: 100vw;
 }
 .omn__container {
-  color: #00d18b;
+  color: #6a679e;
   margin: 100px 0 0 350px;
   width: 50%;
   display: flex;
@@ -114,7 +114,7 @@ section {
 }
 
 .omn__tag__container {
-  color: #00d18b;
+  color: #6a679e;
   margin: 100px 0 0 350px;
   width: 50%;
   display: flex;
@@ -199,7 +199,7 @@ section {
 /* Div 02 */
 #div02 {
   min-height: 100vh;
-  color: #00d18b;
+  color: #6a679e;
   width: 100vw;
 }
 
@@ -233,7 +233,7 @@ section {
 #div07,
 #div08 {
   min-height: 100vh;
-  color: #00d18b;
+  color: #6a679e;
   width: 100vw;
 }
 
