@@ -1,0 +1,7 @@
+* {
+  background: #00071f;
+  color: #6a679e;
+
+  @import url("http://fonts.cdnfonts.com/css/minimo");
+  font-family: "Minimo", sans-serif;
+}

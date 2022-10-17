@@ -127,6 +127,7 @@ body {
 .login__submit a {
   text-decoration: none;
   color: #00071f;
+  background: transparent;
 }
 
 .login__submit:active,
