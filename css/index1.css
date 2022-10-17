@@ -1,0 +1,458 @@
+body {
+  background: #00071f;
+  @import url("http://fonts.cdnfonts.com/css/minimo");
+
+  font-family: "Minimo", sans-serif;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* abs__container */
+.abs__container {
+  display: flex;
+  width: 100vw;
+  z-index: 999;
+  background: transparent;
+}
+
+.logo__container {
+  margin: 20px;
+  position: absolute;
+  width: 30px;
+  z-index: 1;
+}
+
+.logo__container a {
+  text-decoration: none;
+  color: #6a679e;
+}
+
+/* nav__burger */
+.nav__burger {
+  padding-left: 95vw;
+  float: right;
+  margin: 20px;
+  z-index: 2;
+}
+
+.nav__burger:hover {
+  cursor: pointer;
+}
+
+.bgr {
+  margin-top: 5px;
+  background: #6a679e;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+}
+
+.main__container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+/* Div 01 */
+#div01 {
+  min-height: 100vh;
+  width: 100vw;
+}
+.omn__container {
+  color: #6a679e;
+  margin: 100px 0 0 350px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  font-size: 120px;
+  justify-content: space-evenly;
+}
+
+.omn__container ul:nth-child(1) {
+  /* transition: all 1s ease-in; */
+  animation: fadeIn 1s;
+}
+.omn__container ul:nth-child(2) {
+  /* transition: all 1.5s ease-in; */
+  animation: fadeIn 1.5s;
+}
+.omn__container ul:nth-child(3) {
+  /* transition: all 2s ease-in; */
+  animation: fadeIn 2s;
+}
+.omn__container ul:nth-child(4) {
+  /* transition: all 2.5s ease-in; */
+  animation: fadeIn 2.5s;
+}
+.omn__container ul:nth-child(5) {
+  /* transition: all 3s ease-in; */
+  animation: fadeIn 3s;
+}
+.omn__container ul:nth-child(6) {
+  /* transition: all 3.5s ease-in; */
+  animation: fadeIn 3.5s;
+}
+.omn__container ul:nth-child(7) {
+  /* transition: all 4s ease-in; */
+  animation: fadeIn 4s;
+}
+.omn__container ul:nth-child(8) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 4.5s;
+}
+
+.omn__tag__container {
+  color: #6a679e;
+  margin: 100px 0 0 350px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  justify-content: space-evenly;
+}
+
+.omn__tag__container ul:nth-child(1) {
+  /* transition: all 1s ease-in; */
+  animation: fadeIn 5s;
+}
+.omn__tag__container ul:nth-child(2) {
+  /* transition: all 1.5s ease-in; */
+  animation: fadeIn 5.5s;
+}
+.omn__tag__container ul:nth-child(3) {
+  /* transition: all 2s ease-in; */
+  animation: fadeIn 6s;
+}
+.omn__tag__container ul:nth-child(4) {
+  /* transition: all 2.5s ease-in; */
+  animation: fadeIn 6.5s;
+}
+.omn__tag__container ul:nth-child(5) {
+  /* transition: all 3s ease-in; */
+  animation: fadeIn 7s;
+}
+.omn__tag__container ul:nth-child(7) {
+  /* transition: all 3.5s ease-in; */
+  animation: fadeIn 7.5s;
+}
+.omn__tag__container ul:nth-child(8) {
+  /* transition: all 4s ease-in; */
+  animation: fadeIn 8s;
+}
+.omn__tag__container ul:nth-child(9) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 8.5s;
+}
+.omn__tag__container ul:nth-child(9) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 8.5s;
+}
+.omn__tag__container ul:nth-child(10) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 9s;
+}
+.omn__tag__container ul:nth-child(11) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 9.5s;
+}
+.omn__tag__container ul:nth-child(12) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 10s;
+}
+.omn__tag__container ul:nth-child(13) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 10.5s;
+}
+.omn__tag__container ul:nth-child(14) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 10.5s;
+}
+.omn__tag__container ul:nth-child(15) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 11s;
+}
+.omn__tag__container ul:nth-child(16) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 11.5s;
+}
+.omn__tag__container ul:nth-child(17) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 12s;
+}
+.omn__tag__container ul:nth-child(18) {
+  /* transition: all 4.5s ease-in; */
+  animation: fadeIn 12.5s;
+}
+
+/* Div 02 */
+#div02 {
+  min-height: 100vh;
+  color: #6a679e;
+  width: 100vw;
+}
+
+.div__wrapper {
+  padding: 30px 0;
+}
+
+.div02__img1 {
+  margin: 10px;
+  width: 30rem;
+  animation: fadeIn 1s;
+}
+.div02__img2 {
+  margin: 10px;
+  width: 30rem;
+  animation: fadeIn 2s;
+}
+
+.top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+/* Div 03 -> Digital Strategy */
+#div03,
+#div04,
+#div05,
+#div06,
+#div07,
+#div08 {
+  min-height: 100vh;
+  color: #6a679e;
+  width: 100vw;
+}
+
+/* Digital */
+
+.digital_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.digital__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.digital__container img {
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.digital__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Social */
+
+.social_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.social__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.social__container img {
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.social__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Influencer */
+
+.influencer_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.influencer__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.influencer__container img {
+  margin: 20px 0 0 0;
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.influencer__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Mobile */
+
+.web_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.web__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.web__container img {
+  margin: 20px 0 0 0;
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.web__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Web */
+
+.mobile_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.mobile__container {
+  padding: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  animation: fadeIn 5s;
+}
+
+.mobile__container img {
+  margin: 20px 0 0 0;
+  width: 40%;
+  height: 25rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.mobile__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Other */
+
+.other_top__container {
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 5s;
+}
+
+.other__container {
+  padding: 0 0 10px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  animation: fadeIn 5s;
+}
+
+.other__container img {
+  margin: 20px 0 20px 0;
+  width: 85%;
+  height: 15rem;
+  border-radius: 4%;
+  /* animation: fadeIn 7s; */
+}
+
+.other__container p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  width: 40%;
+  /* animation: fadeIn 8s; */
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 5s;
+  --animate-delay: 1s;
+}
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 6s;
+  --animate-delay: 1s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .section-animation {
+    animation: fadeIn 3s;
+  }
+}
