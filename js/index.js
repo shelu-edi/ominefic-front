@@ -13,9 +13,9 @@ const observer = new IntersectionObserver(entries => {
 });
 
 observer.observe(document.querySelector('.section__wrapper'));
-observer.observe(document.querySelector('.digital__wrapper'));
-observer.observe(document.querySelector('.social__wrapper'));
-observer.observe(document.querySelector('.influencer__wrapper'));
-observer.observe(document.querySelector('.mobile__wrapper'));
-observer.observe(document.querySelector('.web__wrapper'));
-observer.observe(document.querySelector('.other__wrapper'));
+// observer.observe(document.querySelector('.digital__wrapper'));
+// observer.observe(document.querySelector('.social__wrapper'));
+// observer.observe(document.querySelector('.influencer__wrapper'));
+// observer.observe(document.querySelector('.mobile__wrapper'));
+// observer.observe(document.querySelector('.web__wrapper'));
+// observer.observe(document.querySelector('.other__wrapper'));

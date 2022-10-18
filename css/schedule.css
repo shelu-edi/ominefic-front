@@ -122,6 +122,16 @@
 }
 
 /* Resposive */
+@media (max-width: 820px) {
+  .schedule {
+    margin-left: 220px;
+  }
+
+  .schedule__submit a {
+    margin-left: 70px;
+  }
+}
+
 @media (max-width: 768px) {
   .schedule {
     margin: 5vh 0 0 27vw;
