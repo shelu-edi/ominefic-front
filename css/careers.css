@@ -5,3 +5,67 @@
   @import url("http://fonts.cdnfonts.com/css/minimo");
   font-family: "Minimo", sans-serif;
 }
+
+.career__top {
+  margin: 50px 0 0;
+  text-align: center;
+  font-size: 4rem;
+  animation: fadeIn 2s;
+}
+
+.job__container {
+  width: 80%;
+  margin: 60px 0 0 12vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.job__card {
+  padding: 20px 0 0 50px;
+  display: flex;
+  height: 50px;
+  width: 70vw;
+  flex-direction: row;
+  border: 1px solid #6a679e;
+  animation: fadeIn 3s;
+}
+
+.job__text {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+
+.job__title {
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.job__desc {
+  font-size: 1rem;
+}
+
+.job__apply {
+  margin-top: -5px;
+  margin-left: 15vw;
+  padding-top: 10px;
+  text-align: center;
+  border: 1px solid #00d18b;
+  width: 100px;
+  height: 30px;
+}
+
+.job__apply a {
+  text-decoration: none;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
