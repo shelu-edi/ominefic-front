@@ -1,0 +1,158 @@
+* {
+  background: #00071f;
+  color: #6a679e;
+
+  @import url("http://fonts.cdnfonts.com/css/minimo");
+  font-family: "Minimo", sans-serif;
+}
+
+.top__container {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 3rem;
+  animation: fadeIn 2s;
+}
+
+.detail__wrapper {
+  margin: 20px 0 0 40px;
+  display: flex;
+  flex-direction: row;
+  animation: fadeIn 3s;
+}
+
+.detail__desc {
+  margin-top: 100px;
+  width: 50%;
+}
+
+/* Apply Form */
+
+.apply__form {
+  width: 320px;
+  padding: 30px;
+  margin-left: 230px;
+  animation: fadeIn 4s;
+}
+
+.apply__field {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.apply__input {
+  left: 50%;
+  border: none;
+  border-bottom: 2px solid #d1d1d4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 75%;
+  transition: 0.2s;
+  color: #6a679e;
+}
+
+.apply__input:active,
+.apply__input:focus,
+.apply__input:hover {
+  outline: none;
+  border-bottom-color: #6a679e;
+}
+
+.file__input {
+  border-bottom: 2px solid #00071f;
+}
+
+.file__input:active,
+.file__input:focus,
+.file__input:hover {
+  outline: none;
+  border-bottom-color: #00071f;
+}
+
+.apply__submit {
+  background: transparent;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: -10px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  border: 1px solid #1273a8;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #6a679e;
+  box-shadow: 0px 2px 2px #5c5696;
+  cursor: pointer;
+  transition: 0.2s;
+  animation: fadeIn 5s;
+}
+
+.apply__submit a {
+  text-decoration: none;
+  color: #6a679e;
+  background: transparent;
+}
+
+.apply__submit:active,
+.apply__submit:focus,
+.apply__submit:hover {
+  border-color: #00d18b;
+  outline: none;
+}
+
+.button__text {
+  margin-left: 90px;
+}
+
+.detail__para {
+  margin-left: 15vw;
+  width: 40%;
+  animation: fadeIn 6s;
+}
+
+/* Responsive */
+@media (max-width: 820px) {
+  .detail__wrapper {
+    flex-direction: column;
+  }
+
+  .detail__desc {
+    align-self: center;
+  }
+
+  .apply__form {
+    align-self: center;
+    margin-left: 23vw;
+  }
+  .detail__para {
+    align-self: center;
+    margin-left: 100px;
+  }
+  .apply__submit {
+    margin-left: -3vw;
+  }
+
+  .detail__para {
+    margin-left: 26vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .apply__form {
+    margin-left: 0;
+  }
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
