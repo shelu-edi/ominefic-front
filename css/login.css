@@ -35,6 +35,9 @@ body {
 .client__head:hover,
 .referral__head:hover {
   cursor: pointer;
+}
+
+.border__bottom {
   border-bottom: 1px solid #00d18b;
 }
 
@@ -280,6 +283,41 @@ body {
   }
 }
 
+@media (max-width: 820px) {
+  .main__container {
+    height: 100%;
+    overflow: hidden;
+  }
+  .login__container {
+    margin-left: 2vw;
+  }
+
+  .referral__container {
+    margin: 120px 300px 0 -200px;
+  }
+
+  .partner__wrapper {
+    margin-right: 130px;
+  }
+
+  .partner__container {
+    width: 100%;
+  }
+
+  .partner__container p {
+    margin-left: -100px;
+  }
+
+  .partner__card {
+    width: 150px;
+    height: 120px;
+  }
+  .partner__card img {
+    width: 150px;
+    height: 120px;
+  }
+}
+
 @media (max-width: 768px) {
   .main__top__container {
     height: 100px;
@@ -288,12 +326,11 @@ body {
   }
 
   .login__container {
-    margin-left: 180px;
-    height: 350px;
+    margin-left: 45vw;
   }
 
-  .login__container p {
-    margin-left: 10px;
+  .referral__container {
+    margin: 0 300px 0 0;
   }
 
   .login {
@@ -309,6 +346,11 @@ body {
   .partner__wrapper {
     /* overflow-x: scroll; */
     width: 90%;
+    margin-right: 0;
+  }
+
+  .partner__container p {
+    margin-left: 0;
   }
 
   .partner__card {
@@ -322,13 +364,17 @@ body {
 }
 
 @media (max-width: 480px) {
-  .login__container {
-    margin-left: 10px;
+  .login__head_container {
+    font-size: 1rem;
   }
 
-  .login__container p {
-    font-size: 24px;
-    margin-left: 160px;
+  .login__container {
+    margin-left: 6vw;
+  }
+
+  .referral__container {
+    width: 100%;
+    margin: 0 0 0 -20vw;
   }
 
   .partner__wrapper {
