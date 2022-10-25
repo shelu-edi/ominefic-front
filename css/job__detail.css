@@ -120,6 +120,8 @@
   }
 
   .detail__desc {
+    width:85%;
+    text-align:justify;
     align-self: center;
   }
 
@@ -141,9 +143,24 @@
 }
 
 @media (max-width: 480px) {
-  .apply__form {
-    margin-left: 0;
-  }
+    * {
+        margin-left:0;
+        padding-left:0;
+    }
+
+    .detail__desc {
+        margin-top: 10px;
+    }
+
+    .apply__form {
+        margin-left: 0;
+    }
+
+   .detail__para {
+      width: 80%;
+      margin-left:10vw;
+      align-self:center;
+    }
 }
 
 /* Animations */
